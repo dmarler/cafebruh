@@ -2,6 +2,9 @@
     "name": "Cafe Bruh",
     "version": "0.1.0",
     "description": "Replaces all instances of \"Cardboard Corner\" with \"Cafe Bruh\".",
+    "icons": {
+        "128": "128.png"
+    },
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
