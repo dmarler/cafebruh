@@ -3,13 +3,16 @@
     "version": "0.1.0",
     "description": "Replaces all instances of \"Cardboard Corner\" with \"Cafe Bruh\".",
     "icons": {
-        "128": "128.png"
+        "128": "128.png",
+        "96": "96.png",
+        "48": "48.png"
     },
     "permissions": [
         "activeTab"
     ],
     "browser_action": {
-        "default_title": "Replace Cardboard Corner"
+        "default_title": "Replace Cardboard Corner",
+        "default_icon": "48.png"
     },
     "background": {
         "scripts": ["background.js"],
